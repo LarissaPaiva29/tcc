@@ -10,14 +10,17 @@
         <body>
             <div id="corpo-form">
             <h1> Login </h1>
-            <form>
+            <form method="post">
                 
-                <input type="email" placeholder="digite seu email">
-                <input type="passaword" placeholder="digite sua senha">
+                <input type="email" placeholder="digite seu email" name="email">
+                <input type="passaword" placeholder="digite sua senha" name="email">
                 <input type="submit" value="Acessar">
                 <a href="cadastra.php">Ainda nao é inscrito?<strong>cadastrar</a>
             </form>
             </div>
+            <?php
+            ?>
+
         </body>
     
 </html>
